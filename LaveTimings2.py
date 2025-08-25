@@ -54,8 +54,6 @@ def format_file_size(size_in_bytes):
     return f"{mb_size:.2f} MB"
 
 
-
-
 def parse_lave_radio():
     feed = feedparser.parse("https://laveradio.com/feed/laveradio.xml")
     number_of_items = len(feed.entries)
